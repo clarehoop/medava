@@ -1,1 +1,10 @@
-Your questions here.
+1. Java seems very similar to c++, what are the benenfits of using java 
+over other C langauges.
+2. Why doesn't java have header files like C++?
+3. What are the most common uses of Java.
+4. Why did the creators include less lower level facilities than C++? What benefit does it serve.
+5. Does Java support multiple inheritance?
+6. Does Java need deconstructors.
+7. How does Java handle null objects
+8. Why did they make lists generic types?
+9. 
