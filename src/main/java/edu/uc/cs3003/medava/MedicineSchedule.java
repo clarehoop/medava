@@ -27,6 +27,5 @@ public enum MedicineSchedule {
             default:
                 return "Uncontrolled";
         }
-        public abstract MedicineSchedule getSchedule();
     }
 }

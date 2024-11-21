@@ -8,7 +8,7 @@ public class Transporter {
     {
         goods = new ArrayList<Shippable>();
     }
-    """
+    /* 
             
         
     public boolean load(Object itemToLoad) {
@@ -27,7 +27,7 @@ public class Transporter {
         }
         
     }
-        """;
+        */
     public boolean load(Shippable itemToLoad) {
         if (itemToLoad.isTemperatureRangeAcceptable(mLowTemperature, mHighTemperature)) {
             return goods.add(itemToLoad);
@@ -40,8 +40,10 @@ public class Transporter {
         mTransporterName = transporterName;
         mLowTemperature = lowTemp;
         mHighTemperature = highTemp;
-    }
-    public Object unload() {
+    }/*public Object unload() {
+        return goods.remove(0);
+    } */
+    public Shippable unload() {
         return goods.remove(0);
     }
     public boolean isEmpty() {

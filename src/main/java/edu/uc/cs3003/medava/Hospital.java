@@ -9,7 +9,7 @@ public class Hospital {
         name = hospitalName;
     }
 
-    """void receive(Transporter t) {
+    /* void receive(Transporter t) {
         while (!t.isEmpty()) {
             try {
                 Object unloaded = t.unload();
@@ -30,7 +30,7 @@ public class Hospital {
             }
         }
     }
-        """;
+        */
                 
     void receive(Transporter t) {
         while (!t.isEmpty()) {
